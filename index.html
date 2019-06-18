@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="cz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kosmonauti</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="main.js"></script>
+</head>
+<body>
+
+
+<div class="header">
+  <header>
+    <h1>Seznam kosmonautů</h1>
+  </header>
+</div>
+
+<div class="text">
+  <p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptates atque est architecto culpa dolorem modi 
+  dignissimos quod ut vero nisi tenetur accusamus consequatur sed inventore, voluptas aspernatur quisquam repellendus.
+  <br></br>
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptates atque est architecto culpa dolorem modi 
+   dignissimos quod ut vero nisi tenetur accusamus consequatur sed inventore, voluptas aspernatur quisquam repellendus.
+  </p>
+</div>
+
+<button id="but_add" class="btn btn-primary btn-med">Přidat</button> <br></br>
+
+  <div id="table" class="table-editable">
+    <table class="table table-bordered table-responsive-md table-striped text-center">
+      <thead class="thead-dark">
+        <tr>
+          <th class="text-center" colspan="2">Jméno a příjmení osoby</th>
+          <th class="text-center">Datum narození</th>
+          <th class="text-center">Státní příslušnost</th>
+          <th class="text-center">Superschopnost</th>
+          <th class="text-center">Odstranit</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td class="pt-3-half" contenteditable="true">Jurij</td>
+          <td class="pt-3-half" contenteditable="true">Gagarin</td>
+          <td class="pt-3-half" contenteditable="true">1934</td>
+          <td class="pt-3-half" contenteditable="true">SSSR</td>
+          <td class="pt-3-half" contenteditable="true">Výcvik</td>
+          <td>
+            <span class="table-remove"><button type="button"
+            class="btn btn-danger btn-rounded btn-sm my-0">Odstranit</button></span>
+          </td>
+        </tr>
+
+        <tr>
+         <td class="pt-3-half" contenteditable="true">Elon</td>
+            <td class="pt-3-half" contenteditable="true">Musk</td>
+            <td class="pt-3-half" contenteditable="true">1971</td>
+            <td class="pt-3-half" contenteditable="true">SA</td>
+            <td class="pt-3-half" contenteditable="true">Výdrž</td>
+            <td>
+              <span class="table-remove"><button type="button"
+              class="btn btn-danger btn-rounded btn-sm my-0">Odstranit</button></span>
+            </td>
+        </tr>
+
+        <tr>
+          <td class="pt-3-half" contenteditable="true">Fenka</td>
+          <td class="pt-3-half" contenteditable="true">Lajka</td>
+          <td class="pt-3-half" contenteditable="true">1954</td>
+          <td class="pt-3-half" contenteditable="true">SSSR</td>
+          <td class="pt-3-half" contenteditable="true">Štěkání</td>
+          <td>
+            <span class="table-remove"><button type="button"
+            class="btn btn-danger btn-rounded btn-sm my-0">Odstranit</button></span>
+          </td>
+        </tr>
+
+        <tr class="hide">
+          <td class="pt-3-half" contenteditable="true">Jebediah </td>
+          <td class="pt-3-half" contenteditable="true">Kerman</td>
+          <td class="pt-3-half" contenteditable="true">???</td>
+          <td class="pt-3-half" contenteditable="true">Kerbin</td>
+          <td class="pt-3-half" contenteditable="true">Kuráž</td>
+          <td>
+            <span class="table-remove"><button type="button"
+            class="btn btn-danger btn-rounded btn-sm my-0">Odsranit</button></span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+     
+
+</body>
+</html>
